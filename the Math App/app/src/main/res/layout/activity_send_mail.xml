@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sendmail"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".SendMailActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="** Please Connect to Internet **
+        \nYou can share your Math Ideas with us through this Email."
+        android:textStyle="italic"
+        android:id="@+id/et1"
+        android:textColor="@color/Red"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="@dimen/fab_elevation_lollipop"
+        android:scrollbars="vertical"
+        android:id="@+id/scrollView">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+                <EditText
+                    android:text="bhowmik.arpan1@gmail.com"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="50dp"
+                    android:id="@+id/editText" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Subject"
+                    android:ems="10"
+                    android:layout_below="@+id/editText"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/editText2" />
+
+            <EditText
+                android:hint="message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:lines="5"
+               android:layout_below="@+id/editText2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="40dp"
+                android:id="@+id/editText3" />
+
+            <Button
+                    android:text="Send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editText3"
+                    android:layout_alignLeft="@+id/editText2"
+                    android:layout_alignStart="@+id/editText2"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="57dp"
+                    android:id="@+id/button" />
+        </LinearLayout>
+        </RelativeLayout>
+
+</ScrollView>
+</RelativeLayout>

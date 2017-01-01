@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/kuet">
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:id="@+id/scrollView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+            <Button
+                android:text="Level-1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textStyle="italic"
+                android:textColor="@color/Blue"
+                android:background="@drawable/b1"
+                android:layout_marginTop="20dp"
+                android:id="@+id/button" />
+            <Button
+                android:text="Level-2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textStyle="italic"
+                android:textColor="@color/LightCoral"
+                android:background="@drawable/b1"
+                android:layout_marginTop="45dp"
+                android:id="@+id/button2" />
+
+            <Button
+                android:text="Level-3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textStyle="italic"
+                android:textColor="@color/Red"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/b1"
+                android:id="@+id/button3" />
+
+            <Button
+                android:text="Forum"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textStyle="italic"
+                android:textColor="@color/Black"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/b1"
+                android:id="@+id/button4" />
+
+            <Button
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textStyle="italic"
+                android:textColor="@color/Black"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/developers_button_normal"
+                android:id="@+id/button5" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="@color/DarkMagenta"
+        android:background="@drawable/b1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+

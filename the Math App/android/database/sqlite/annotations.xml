@@ -1,0 +1,6 @@
+<root>
+  <item
+      name='android.database.sqlite.SQLiteOpenHelper android.database.sqlite.SQLiteDatabase getWritableDatabase()'>
+    <annotation name='java.lang.annotation.Deprecated' />
+  </item>
+</root>

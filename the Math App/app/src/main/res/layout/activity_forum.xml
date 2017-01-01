@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_forum"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.rezwan.mojargonit.ForumActivity">
+
+
+    <TextView
+        android:text="Mathematical Formulas"
+        android:background="@color/MediumPurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:id="@+id/textView111"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:text="(1) Trigonometric Formulas : "
+                    android:scrollIndicators="bottom"
+                    android:textStyle="bold"
+                    android:textColor="@color/BlueViolet"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/geom_1"
+                    android:id="@+id/imageView" />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/BlueViolet"
+                    android:textStyle="bold"
+                    android:text=" (1.1) Area of a Circle :  A = πr^2\n\n * π is a constant that can, for the purposes of the SAT, be written as 3.14 (or 3.14159).
+                    \n * r is the radius of the circle (any line drawn from the center point straight to the edge of the circle).\n\n\n
+(1.2) Circumference of a Circle : C = 2πr or C = πd\n\n
+* d is the diameter of the circle. It is a line that bisects the circle through the midpoint and touches two ends of the circle on opposite sides. It is twice the radius.\n\n"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/Maroon"
+                    android:textStyle="italic"
+                    android:text=   "
+(2) Procedure to determine big square number's last digit:\n
+                                    2^1     = 2\n
+                                    2^2	    =	4\n
+                                    2^3	    =	8\n
+                                    2^4	    =	16\n
+                                    2^5	    =	32\n
+                                    2^6	    =	64\n
+                                    2^7	    =	128\n
+                                    2^8	    =	256\n
+                                    2^9	    =	512\n
+                                    2^10	 =	1024\n
+                                    2^11	 =	2048\n
+                                    2^12	 =	4096\n
+    As we can see, there is a pattern 2,4,8,6 repeatedly.\n
+    if n = 9, then we can tell it's last digit is = 2.
+
+                                    \n\n"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="@color/Green"
+                    android:text="(3) If a, b, and c are positive integers such that gcd(a, b) = 1 and a | bc, then a | c.
+\n\nProof: Because gcd(a, b) = 1, by Bézout’s theorem there are integers s and t such that
+sa + tb = 1.
+Multiplying both sides of this equation by c, we obtain
+sac + tbc = c.
+\na | tbc.
+\nBecause a | sac and a | tbc, by part (i ) of that theorem, we conclude that a divides sac + tbc.
+\nBecause sac + tbc = c, we conclude that a | c, completing the proof.\n\n"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="(4) Closure Property of Addition
+
+\n\nSum (or difference) of 2 real numbers equals a real number.
+
+\nAdditive Identity
+\na + 0 = a
+
+\nAdditive Inverse
+\na + (-a) = 0
+
+\nAssociative of Addition
+\n(a + b) + c = a + (b + c)
+
+\nCommutative of Addition
+\na + b = b + a
+
+\nDefinition of Subtraction
+\na - b = a + (-b)
+\n\n"
+                    android:textColor="@color/Purple"
+                    android:textStyle="italic"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="(5) Closure Property of Multiplication
+
+\nProduct (or quotient if denominator (!=)0) of 2 reals equals a real number.
+\n
+\nMultiplicative Identity
+\na * 1 = a
+\n
+\nMultiplicative Inverse
+\na * (1/a) = 1     (a (!=) 0)
+\n
+\n(Multiplication times 0)
+\na * 0 = 0
+\n
+\nAssociative of Multiplication
+\n(a * b) * c = a * (b * c)
+\n
+\nCommutative of Multiplication
+\na * b = b * a
+\n
+\nDistributive Law
+\na(b + c) = ab + ac
+\n
+\nDefinition of Division
+\na / b = a(1/b)\n\n"
+                    android:textStyle="normal"
+                    android:textColor="@color/Navy"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/Olive"
+                    android:textStyle="italic"
+                    android:text="(6) Combination:
+\n
+\n(i) Number of combinations of n different things taken r at a time = nCr = n!/r!(n-r)
+\n
+\n(ii) nP0 = r!· nC0.
+\n
+\n(iii) nC0 = nCn = 1.
+\n
+\n(iv) nCr = nCn - r.\n\n"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/FireBrick"
+                    android:textStyle="bold"
+                    android:text="(7) If any number has 5 in its one's place, we can easily find the result without calculator.
+
+\nSuppose, we want to find the value of 25 ^ 2 ? What's the way???
+\n
+\nFirst, we take 25 as last two digits. Then we multiply the decimal's place digit and decimal's place digit+1 !!!
+\n
+\n25 ^ 2 = (2*3)   25 = 6  25  = 625
+\n
+\n85 ^ 2 = (8*9)   25 = 72 25  = 7225
+\n
+\n95 ^ 2 = (9*10)  25 = 90 25 =  9025
+\n
+\nand so on........\n\n"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic"
+                    android:textColor="@color/LimeGreen"
+                    android:text="(8) nCr + nCn - 1 =(n+1)Cr
+\n
+\n(vi) If p ? q and nCp = nCq then p + q = n.
+\n
+\n(vii) nCr/nCr - 1 = (n - r + 1)/r.
+\n
+\n(viii) The total number of combinations of n different things taken any number at a time = nC1 + nC2 + nC3 + …………. + nC0 = 2n – 1.
+\n
+\n(ix) The total number of combinations of (p + q + r + . . . .) things of which p things are alike of a first kind, q things are alike of a second kind r things are alike of a third kind and so on, taken any number at a time is [(p + 1) (q + 1) (r + 1) . . . . ] - 1.
+\n\n"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textColor="@color/SaddleBrown"
+                    android:text="(9) Algebraic Formula:
+\n
+\n(i) (a + b)^2 = a^2 + 2ab + b^2
+\n
+\n(ii) (a - b)^2 = a^2 -2ab + b^2
+\n
+\n(iii) (a + b) (a - b) = a^2-b^2
+\n
+\n(iv) (x + a)(x + b) = x^2 + (a + b) x +ab
+\n
+\n(v) (x + a)(x - b) = x^2 + (a - b) x -ab
+\n
+\n(vi) (x - a)(x + b) = x^2 + (b - a) x -ab
+\n
+\n(vii) (x - a)(x - b) = x^2 - (a + b) x +ab
+\n
+\n(viii) (a + b)^3 = a^3 + b^3 + 3ab(a + b)
+\n
+\n(ix) (a - b)^3 = a^3 - b^3 - 3ab (a - b)
+\n
+\n(x) (x + y + z)^2 = x^2 + y^2 + z^2 + 2xy +2yz + 2xz
+\n
+\n(xi) (x + y - z)^2 = x^2 + y^2 + z^2 + 2xy - 2yz - 2xz
+\n
+\n(xii) (x - y + z)^2 = x^2 + y^2 + z^2 - 2xy - 2yz + 2xz
+\n
+\n(xiii) (x - y - z)^2 = x^2 + y^2 + z^2 - 2xy + 2yz - 2xz
+\n
+\n(xiv) x^3 + y^3 + z^3 - 3xyz = (x + y + z)(x^2 + y^2 + z^2 - xy - yz -xz)
+\n
+\n(xv) (x + a) (x + b) (x + c) = x^3 + (a + b + c)x^2 + (ab + bc + ca)x + abc
+\n
+\n(xvi)  x^3 + y^3 = (x + y) (x^2 - xy + y^2)
+\n
+\n(xvii)  x^3 - y^3 = (x - y) (x^2 + xy + y^2)
+\n
+\n(xviii)  x^2 + y^2 + z^2 -xy -yz -zx = 1/2[(x-y)^2+(y-z)^2+(z-x)^2]\n\n"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="(10) Arithmetic Progression :
+\n
+\n(i) An Arithmetic Progression (AP) is a list of numbers in which each term is obtained by adding a fixed number 'd' to the preceding term, except the first term. The fixed number is called the common difference.
+\n
+\nThe general term of an AP is
+\n
+\na, a+d, a+2d, a +3d, ....
+\n
+\n(ii) A given list of numbers a1, a2, a3 ....... is an AP if the differences
+\n
+\na2 - a1, a3 a2, a4 a3, ....... give the same value.
+\n
+\nIn other words, if a k+1 ak is the same for different values of k, the term is an AP
+\n
+\n(iii) In an AP with first term a and common difference d, the nth term is given by
+\n
+\nan = a + (n - 1 ) d
+\n
+\n(iv) The sum of the first n terms of an AP:
+\n
+\nS = n/2[2a + (n - 1) d]\n\n"
+                    android:textColor="@color/Black"
+                    android:textStyle="italic"/>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:backgroundTint="@color/colorAccent"
+            app:fab_shadow="true"
+            android:src="@drawable/ic_action_compose"
+            android:id="@+id/fab"
+            />
+
+        
+    </android.support.design.widget.CoordinatorLayout>
+    
+
+
+
+</RelativeLayout>

@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Wheat">
+    <TextView
+        android:text="Some Mathematical Problems for level-1 (Easy)"
+        android:background="@color/PaleTurquoise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="@color/Brown"
+        android:id="@+id/textView111"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="@dimen/fab_elevation_lollipop"
+            android:scrollbars="vertical"
+            android:id="@+id/scrollView">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <!--Q - 1-->
+                    <TextView
+                        android:text="(1) What is the smallest prime number ?"
+                        android:textColor="@color/Blue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView1" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues1"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button1" />
+
+
+                    <!--Q-2-->
+                    <TextView
+                        android:text="(2) LCM of 2, 5, 7 = ?  "
+                        android:textColor="@color/Green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView2" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues2"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button2" />
+
+                    <!--Q-3-->
+                    <TextView
+                        android:text="(3) What is the greatest common divisor(gcd) of 2,3,5 and 13 ?"
+                        android:textColor="@color/Blue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView3" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues3"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button3" />
+
+                    <!--Q-4-->
+                    <TextView
+                        android:text="(4) If a+b+c=6, a>b, a>c, b>c and a,b,c are positive integers, then what is the value of a ?"
+                        android:textColor="@color/Green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView4" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues4"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button4" />
+
+                    <!--Q-5-->
+                    <TextView
+                        android:text="(5) If 1/(3^-x)=81, then what's the value of x ?"
+                        android:textColor="@color/Blue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView5" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues5"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button5" />
+
+                    <!--Q - 6-->
+                    <TextView
+                        android:text="(6) What is the constant term in the equation x^3+1/x=4x ?"
+                        android:textColor="@color/Green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView6" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues6"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button6" />
+                    <!--Q - 7-->
+                    <TextView
+                        android:text="(7) 10+11+12+13+14+15+....+101 = ?"
+                        android:textColor="@color/Blue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView7" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues7"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button7" />
+                    <!--Q - 8-->
+                    <TextView
+                        android:text="(8) The difference between two natural number is 2 and their product is 15. What is the value of greater number ?"
+                        android:textColor="@color/Green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView8" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues8"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button8" />
+
+                    <!--Q - 9-->
+                    <TextView
+                        android:text="(9) If a:b=2:3 and 2:a=1:2, then what is the value of b ?"
+                        android:textColor="@color/Blue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView9" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues9"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button9" />
+
+                    <!--Q - 10-->
+                    <TextView
+                        android:text="(10) If x^3 + y^3 = 9 and x+y=3 , then What is the value of xy ?"
+                        android:textColor="@color/Green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView10" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues10"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button10" />
+
+                    <!--Q - 11-->
+                    <TextView
+                        android:text="(11) Is this statement true or false?: |15-5|=15-5 ?"
+                        android:textColor="@color/Blue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView11" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:id="@+id/editQues11"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button11" />
+                    <!--Q-12-->
+                    <TextView
+                        android:text="(12) What is the next prime number after 7 ?"
+                        android:textColor="@color/Green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView12" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues12"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button12" />
+                    <!--Q-13-->
+                    <TextView
+                        android:text="(13) What is the next number in the sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ?"
+                        android:textColor="@color/Blue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView13" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues13"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button13" />
+                    <!--Q-14-->
+                    <TextView
+                        android:text="(14) 5 to the power of 0 equals what ?"
+                        android:textColor="@color/Blue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView14" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues14"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button14" />
+                    <!--Q - 15-->
+                    <TextView
+                        android:text="(15) What is the average (arithmetic mean) of all the multiples of ten from 10 to 190 inclusive ?"
+                        android:textColor="@color/Green"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:id="@+id/editQues15"
+                        android:hint="Ans"
+                        android:textColorHint="@color/Aquamarine"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    <Button
+                        android:text="Submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:id="@+id/button15" />
+                    <!-- Award -->
+                    <Button
+                        android:text="Award"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center"
+                        android:textColor="@color/Indigo"
+                        android:textStyle="italic"
+                        android:background="@drawable/b1"
+                        android:id="@+id/award" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+    <!--Marks-->
+    <Button
+        android:id="@+id/mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scores"
+        android:textColor="@color/DarkMagenta"
+        android:background="@drawable/b1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <!--Award-->
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
